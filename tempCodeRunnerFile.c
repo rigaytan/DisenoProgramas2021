@@ -1,1 +1,1 @@
-anf("%i",&edad
+resultado
