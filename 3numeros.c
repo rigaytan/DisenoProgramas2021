@@ -14,22 +14,22 @@ int main ()
     {
         if(num1>num3)
         {
-            printf("El numero 1 es el mayor\n");
+            printf("El %i es el mayor\n",num1);
         }
         else
         {
-            printf("El numero 3 es el mayor\n");
+            printf("El %i es el mayor\n",num3);
         }
     }
     else
     {
         if(num2>num3)
         {
-            printf("El numero 2 es el mayor\n");
+            printf("El %i es el mayor\n",num2);
         }  
         else
         {
-            printf("El numero 3 es el mayor\n");
+            printf("El %i es el mayor\n",num3);
         } 
     }
 }
