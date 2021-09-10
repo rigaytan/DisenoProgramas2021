@@ -10,7 +10,21 @@ int main ()
     scanf("%i",&num2);
     printf("Introduce el numero 3: ");
     scanf("%i",&num3); 
-     
+
+    if(num1==num2)
+    {
+        printf("El numero 1 es igual al numero 2");
+    }
+    else if(num1==num3)
+    {
+        printf("El numero 1 es igual al numero 3");
+    }
+    else if(num2==num3)
+    {
+        printf("El numero 2 es igual al numero 3");
+    }
+    else
+    {
     if(num1>num2)
     {
         if(num1>num3)
@@ -25,5 +39,6 @@ int main ()
     else
         {
             printf("El %i es el mayor\n",num3);
-        } 
+        }
+    } 
 }
