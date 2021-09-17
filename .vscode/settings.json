@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "tipoDatos.C": "cpp",
+        "OperacionesMatematicas.C": "cpp",
+        "cmath": "c",
+        "conio.h": "c"
+    }
+}
