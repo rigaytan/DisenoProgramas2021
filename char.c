@@ -13,6 +13,7 @@ int main ()
    if (letra == 'b')
    {
        printf("Respuesta correcta la independencia de mexico empezo el 15 de septiembre de 1810");
+       b=b+1; //b++
    }
    else
    {
@@ -25,9 +26,15 @@ int main ()
    if (letra2 == 'a')
    {
        printf("Respuesta correcta Miguel Hidalgo realizo el Grito de Dolores");
+       b++;
    }
    else
    {
        printf("Fallaste, lee un libro de historia");
    }
+   //Respuestas incorrectas
+   //Numero de preguntas - Respuestas correctas
+   //2-b
+   printf("\nTus respuestas correctas fueron %i",b);
+   printf("\nTus respuestas incorrectas fueron %i",2-b);
 }
