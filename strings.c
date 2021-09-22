@@ -4,6 +4,7 @@
 
 int main ()
 {
+    //ABC = Altas, Bajas, Cambios
     //string = Cadena de caracteres
     //varios caracteres pegados, palabras o frases
     char nombre[10];
@@ -11,6 +12,7 @@ int main ()
     char nombreCompleto[30] = "";
     char contra[10];
     char usuario[10];
+    char contraAcc[10];
     printf("Introduce tu nombre: ");
     gets(nombre);
     printf("Introduce tu apellido: ");
