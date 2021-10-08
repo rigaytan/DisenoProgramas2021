@@ -24,7 +24,7 @@ El resultado es: 12
 */
 int main ()
 {
-int i, numero, b = 0;
+int i, numero, sumatoria = 0;
 printf("Introduce un numero: ");
 scanf("%i",&numero); 
 
@@ -33,13 +33,12 @@ for (i=numero; i>=0; i--)
         if(i%4 == 0)
         {
             //printf("%i numero multiplo de 4\n",i);
-            b = b+i;
-            
+            sumatoria = sumatoria+i;
         }
         else
         {
             //printf("%i el numero no es multiplo de 4\n",i);
         }
     }
-    printf ("La sumatoria es: %i\n",b);
+    printf ("La sumatoria es: %i\n",sumatoria);
 }
